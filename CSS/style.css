@@ -1,0 +1,409 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    background-color: #000;
+    width: 100vw;
+    height: 14.019vw;
+}
+.rugallogo img{
+    position: absolute;
+    width: 34.651vw;
+    height: 23.953vw;
+    left: 64.884vw;
+    top: -5.116vw;
+
+}
+#menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #3a3939;
+    transition-duration: .25s;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #000;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+    z-index: 1;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+  }
+  .menu__item:hover {
+    background-color: #;
+  }
+.pesquisa{
+    position: absolute;
+    width: 42.290vw;
+    height: 4.439vw;
+    left: 57.710vw;
+    top: 9.579vw;
+    background: #F7F0F0;
+    box-shadow: inset 0vw 0.935vw 0.935vw rgba(0, 0, 0, 0.25);
+    border-radius: 0.701vw 0 0 0;
+}
+.pesquisa h1{
+    font-size: 3.505vw;
+    margin-left: 4vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.3);
+}
+.pesquisa img{
+    position: absolute;
+    width: 3.505vw;
+    height: 3.505vw;
+    left: 0.5vw;
+    top: 0.5vw;
+}
+
+main{
+    background-color: #0d0d0d;
+    height: 589.720vw;
+    width: 100vw;
+}
+.maisouvidas h1{
+    position: absolute;
+    width: 55.140vw;
+    height: 10.411vw;
+    left: 25.196vw;
+    top: 19.196vw;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7.009vw;
+    line-height: 8.411vw;
+
+    color: #FFFFFF;
+}
+.musicas{
+    position: relative;
+    width: 87.850vw;
+    height: 52.234vw;
+    left: 6.075vw;
+    top: 20.645vw;
+    margin-bottom: 10.645vw;
+
+    background: #161616;
+    box-shadow: 0vw 0.935vw 0.935vw rgba(0, 0, 0, 0.25);
+    border-radius: 1.168vw;
+}
+.albos h1{
+    position: relative;
+    width: 75.140vw;
+    left: 12.196vw;
+    top: 18.596vw;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 4.009vw;
+    line-height: 8.411vw;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.brunomaciel{
+    width: 16.589vw;
+    height: 17.991vw;
+    margin: 3.5vw;
+    margin-bottom: 3vw;
+    margin-left: 8vw;
+    float: left;
+}
+.brunomaciel img{
+    width: 15.187vw;
+    height: 15.187vw;
+    left: 14.019vw;
+
+    background: url(ledereberoc.jpg);
+    filter: drop-shadow(0vw 0.935vw 0.935vw rgba(0, 0, 0, 0.25));
+    border-radius: 1.168vw;
+    float: left;
+}
+.brunomaciel h1{
+    width: 14.99vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.869vw;
+    text-align: center;
+    color: #FFFFFF;
+    float: left;
+}
+.recomendacoes h1{
+    position: relative;
+    width: 55.140vw;
+    height: 4vw;;
+    margin-left: 24.196vw;
+    margin-top: 45.196vw;
+    text-align: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 7.009vw;
+
+    color: #FFFFFF;
+}
+.quemsomos h1{
+    position: relative;
+    width: 55.140vw;
+    height: 4vw;;
+    margin-left: 24.196vw;
+    margin-top: 40.196vw;
+    text-align: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 7.009vw;
+
+    color: #FFFFFF;
+}
+.quemsomostxt{
+    position: relative;
+    width: 87.850vw;
+    height: 118.654vw;
+    left: 6.075vw;
+    top: 20.645vw;
+    margin-bottom: 10.645vw;
+
+    background: #161616;
+    box-shadow: 0vw 0.935vw 0.935vw rgba(0, 0, 0, 0.25);
+    border-radius: 1.168vw;
+}
+.quemsomostxt p{
+    position: relative;
+    width: 79.206vw;
+    height: 103.505vw;
+    left: 4.580vw;
+    top: 2.5vw;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6.673vw;
+    line-height: 7.607vw;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+footer{
+    position: absolute;
+    width: 100vw;
+    height: 13.318vw;
+
+    background: #000000;
+    box-shadow: 0vw 0.935vw 0.935vw rgba(0, 0, 0, 0.25);
+}
+footer h1{
+    position: absolute;
+    width: 47.664vw;
+    height: 4.206vw;
+    left: 26.168vw;
+    top: 4vw;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.505vw;
+    line-height: 4.206vw;
+
+    color: #FFFFFF;
+}
+.rugalimagem img{
+    width: 98.598vw;
+    height: 73.832vw;
+    left: 0.701vw;
+    margin-top: 12vw;
+}
+@media screen and (min-width: 1281px){
+    header{
+    position: absolute;
+    width: 100vw;
+    height: 7.083vw;
+    left: 0vw;
+    top: -0.139vw;
+
+    background: #000000;
+    box-shadow: 0vw 0.278vw 0.278vw rgba(0, 0, 0, 0.25);
+    }
+    .rugallogo img{
+        position: absolute;
+        width: 18.958vw;
+        height: 14.236vw;
+        margin-left: 15.042vw;
+        top: -3.472vw;
+    }
+    main{
+        width: 100vw;
+        height: 270.111vw;
+    }
+    .maisouvidas h1{
+        position: absolute;
+        width: 22.292vw;
+        height: 3.333vw;
+        left: 38.819vw;
+        top: 7.764vw;
+        margin-bottom: 1vw;
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.778vw;
+        line-height: 3.333vw;
+
+        color: #FFFFFF;
+    }
+    .albos h1{
+        position: relative;
+        width: 50.059vw;
+        height: 3.747vw;
+        left: 23.438vw;
+        top: 15.100vw;
+        margin-top: -3vw;
+        margin-bottom: 1.5vw;
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2vw;
+        line-height: 3.747vw;
+
+        color: #FFFFFF;
+    }
+    .brunomaciel{
+        width: 9.167vw;
+        height: 10.278vw;
+        margin-top: 2.5vw;
+        margin-right: -2.5vw;
+        margin-left: 7vw;
+    }
+    .brunomaciel img{
+        width: 8.750vw;
+        height: 8.750vw;
+        left: 8.611vw;
+        top: 17.986vw;
+
+        filter: drop-shadow(0vw 0.278vw 0.278vw rgba(0, 0, 0, 0.25));
+        border-radius: 0.347vw;
+    }
+    .brunomaciel h1{
+        width: 9.167vw;
+        height: 1.250vw;
+        left: 8.403vw;
+        top: 27.014vw;
+        margin-top: 0.5vw;
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.042vw;
+        line-height: 1.250vw;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+    .musicas{
+        width: 91.944vw;
+        height: 14.931vw;
+        left: 4.028vw;
+        top: 14.583vw;
+        margin-bottom: 3vw;
+
+        background: #161616;
+        box-shadow: 0vw 0.278vw 0.278vw rgba(0, 0, 0, 0.25);
+        border-radius: 0.347vw;
+    }
+    .quemsomos h1{
+        width: 40.167vw;
+        height: 3.333vw;
+        left: 7.139vw;
+        margin-bottom: -15vw;
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 5.778vw;
+        line-height: 3.333vw;
+
+        color: #FFFFFF;
+    }
+    .quemsomostxt{
+        width: 91.944vw;
+        height: 31.181vw;
+        left: 3.750vw;
+
+        background: #161616;
+        box-shadow: 0vw 0.278vw 0.278vw rgba(0, 0, 0, 0.25);
+        border-radius: 0.347vw;
+    }
+    .quemsomostxt p{
+        width: 86.806vw;
+        height: 30.764vw;
+        margin-left: -2vw;
+        margin-bottom: -8vw;
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.778vw;
+        line-height: 3.333vw;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+}
