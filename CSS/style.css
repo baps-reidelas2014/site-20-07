@@ -8,6 +8,9 @@ header{
     width: 100vw;
     height: 14.019vw;
 }
+main{
+    width: 100vw;
+}
 .rugallogo img{
     position: absolute;
     width: 34.651vw;
